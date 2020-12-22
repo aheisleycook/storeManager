@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+S:/storeManager/main.cpp
+iostream
+-
+string
+S:/storeManager/string
+iomanip
+S:/storeManager/iomanip
+
